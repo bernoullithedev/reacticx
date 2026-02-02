@@ -75,12 +75,12 @@ export function PackageManagerTabs({
 
   const getCommand = (packageManager: string): string => {
     if (packageManager === "pnpm") {
-      return `pnpm dlx reactix add ${commandName}`;
+      return `pnpm dlx reacticx add ${commandName}`;
     }
     if (packageManager === "npm") {
-      return `npx reactix add ${commandName}`;
+      return `npx reacticx add ${commandName}`;
     }
-    return `bunx --bun reactix add ${commandName}`;
+    return `bunx --bun reacticx add ${commandName}`;
   };
 
   const handleCopyCommand = () => {

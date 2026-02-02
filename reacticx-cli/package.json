@@ -1,7 +1,8 @@
 {
   "name": "reacticx",
   "version": "0.1.1",
-  "description": "Add beautiful React Native components to your project",
+  "description": "💅 Add beautiful React Native components to your project",
+  "homepage": "https://www.reacticx.com/docs/components/orb",
   "type": "module",
   "bin": {
     "reacticx": "./dist/index.js"
