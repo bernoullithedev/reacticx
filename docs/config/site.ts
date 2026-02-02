@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Reactix",
-  url: "https://glow-ui.xyz",
+  url: "https://www.reacticx.com/",
   ogImage: "https://i.ibb.co/k2wG2kgV/white-glow.png",
   description:
     "Awesome React Native UI components free and open source built with Expo, Reanimated, Gesture Handler, and Skia.",

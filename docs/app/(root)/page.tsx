@@ -193,14 +193,14 @@ export default function LandingPage() {
           </div>
         </section>
         {/* Phone Mockups Section with Scroll Animation */}
-        <section className="px-4 sm:px-6 lg:px-8 py-20 md:py-28 overflow-visible">
+        <section className="px-4 sm:px-6 lg:px-8 py-12 md:py-28 overflow-hidden">
           <div className="max-w-6xl mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.7 }}
-              className="text-center mb-16"
+              className="text-center mb-10 md:mb-16"
             >
               <h2 className="font-satoshi text-2xl md:text-3xl font-bold text-white mb-3">
                 See it in action
@@ -216,7 +216,7 @@ export default function LandingPage() {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="max-w-5xl mx-auto pointer-events-none pb-20"
+              className="pointer-events-none pb-10 md:pb-20"
             >
               <TriplePhoneHero
                 imageLeftSrc="/static/mockup/animated-scroll-mockup.png"
