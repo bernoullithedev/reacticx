@@ -15,7 +15,6 @@
 
     "---Texts---",
     "components/animated-text",
-    "components/curved-text",
     "components/dynamic-text",
     "components/fade-text",
     "components/gooey-text",
@@ -58,7 +57,6 @@
     "components/circular-carousel",
     "components/circular-list",
     "components/circular-loader",
-    "components/circular-text",
     "components/curved-bottom-tabs",
     "components/currency-transfer",
     "components/dialog",
