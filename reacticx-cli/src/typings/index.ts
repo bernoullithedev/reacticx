@@ -2,11 +2,17 @@ interface ComponentConfig {
   outDir: string;
 }
 
+interface FolderEntry {
+  name: string;
+  files: string[];
+}
+
 interface ComponentInfo {
   name: string;
   category: string;
   path: string;
   files: string[];
+  folders: FolderEntry[];
 }
 
 interface Registry {
@@ -21,4 +27,10 @@ interface AddOptions {
   dir?: string;
 }
 
-export type { ComponentConfig, ComponentInfo, Registry, AddOptions };
+export type {
+  ComponentConfig,
+  ComponentInfo,
+  FolderEntry,
+  Registry,
+  AddOptions,
+};

@@ -112,10 +112,8 @@ function getAllFilesInFolderRecursively(
 
     if (item.isDirectory()) {
       files.push(...getAllFilesInFolderRecursively(fullPath, baseDir));
-    } else if (
-      (item.name.endsWith(".tsx") || item.name.endsWith(".ts")) &&
-      !IGNORE_FILES.includes(item.name)
-    ) {
+    } else if (item.name.endsWith(".tsx") || item.name.endsWith(".ts")) {
+      // Don't filter out index.ts in subfolders - only root index.ts is ignored
       files.push(relativePath);
     }
   }
