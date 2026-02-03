@@ -27,7 +27,7 @@
 
 ## 📚 Documentation
 
-Visit our [documentation](https://glow-ui.vercel.app/) to learn more about our components and how to use them.
+Visit our [documentation](https://www.reacticx.com/docs) to learn more about our components and how to use them.
 
 ## 🤝 Contributing
 
