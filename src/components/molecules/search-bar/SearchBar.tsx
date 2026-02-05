@@ -388,7 +388,7 @@ const styles = StyleSheet.create({
 
     textAlign: "left",
   },
-  clearButtonNew: {
+  clearButton: {
     paddingVertical: 2,
     paddingHorizontal: 4,
     marginLeft: 4,
