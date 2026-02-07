@@ -21,6 +21,8 @@
     "components/dynamic-text",
     "components/fade-text",
     "components/gooey-text",
+    "components/curved-marquee",
+    "components/staggered-text",
 
     "---Micro Interactions---",
     "components/animated-scroll-progress",

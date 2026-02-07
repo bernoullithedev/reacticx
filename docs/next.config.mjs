@@ -1,4 +1,10 @@
+import { setupDevPlatform } from "@cloudflare/next-on-pages/next-dev";
 import { createMDX } from "fumadocs-mdx/next";
+
+// Setup Cloudflare development platform
+if (process.env.NODE_ENV === "development") {
+  await setupDevPlatform();
+}
 
 const withMDX = createMDX();
 
@@ -61,7 +67,8 @@ const nextConfig = {
     qualities: [75, 90],
   },
   reactStrictMode: true,
-  cacheComponents: true,
+  // cacheComponents disabled for Cloudflare Pages edge runtime compatibility
+  // cacheComponents: true,
   serverExternalPackages: [
     "twoslash",
     "typescript",
