@@ -8,7 +8,7 @@ import {
 } from "react-native-reanimated";
 import { SHADER as MESH_GRADIENT_SHADER } from "./conf";
 import { DEFAULT_INITIAL_COLORS } from "./const";
-import { IAnimatedMeshGradient, IMeshGradientColor } from "./types";
+import type { IAnimatedMeshGradient, IMeshGradientColor } from "./types";
 
 export const AnimatedMeshGradient: React.FC<IAnimatedMeshGradient> &
   React.FunctionComponent<IAnimatedMeshGradient> = memo<IAnimatedMeshGradient>(
@@ -22,7 +22,7 @@ export const AnimatedMeshGradient: React.FC<IAnimatedMeshGradient> &
     style,
     width: paramsWidth,
     height: paramsHeight,
-  }: IAnimatedMeshGradient): React.ReactNode &
+  }: React.ComponentProps<typeof AnimatedMeshGradient>): React.ReactNode &
     React.JSX.Element &
     React.ReactElement => {
     const { width: screenWidth, height: screenHeight } = useWindowDimensions();

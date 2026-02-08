@@ -7,9 +7,12 @@
     "index",
     "about",
     "---Shaders---",
+    "components/aurora",
     "components/chroma-ring",
     "components/energy-orb",
     "components/siri-orb",
+    "components/mesh-gradient",
+    "components/grainy-gradient",
     "components/skia-ripple",
     "components/wave-scrawler",
 
@@ -18,6 +21,8 @@
     "components/dynamic-text",
     "components/fade-text",
     "components/gooey-text",
+    "components/curved-marquee",
+    "components/staggered-text",
 
     "---Micro Interactions---",
     "components/animated-scroll-progress",
